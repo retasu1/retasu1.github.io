@@ -1,0 +1,152 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+/* General styles */
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: $light;
+	
+	@include large {
+		max-width: 800px;
+		margin: 1.5rem auto;
+	}
+}
+
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+figure, figure img {
+	margin: 0 auto;
+}
+
+figure {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+figure img {
+	margin-bottom: 1rem;
+}
+
+/* typography */
+html {
+	font-size: clamp(16px, 1.3vw, 24px);
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	color: $clr-text;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	line-height: 1.1;
+    margin: 0;
+    margin-block-start:  0;
+    font-family: $ff-secondary;
+}
+
+h1 { 
+	font-size: $fs-h1;
+	
+	@include large {
+		font-size: $fs-h1-l;
+	}
+}
+
+h2 { 
+	font-size: $fs-h2;
+
+	@include large {
+		font-size: $fs-h2-l;
+	}
+}
+
+h3 { 
+	font-size: $fs-h3; 
+
+	@include large {
+		font-size: $fs-h3-l;
+	}
+}
+
+p {
+    font-family: $ff-primary;
+    font-size: $fs-body;
+    line-height: 1.6;
+
+	@include large {
+		font-size: $fs-body-l;
+	}
+}
+
+main a {
+    color: $clr-link;
+}
+
+main a:visited {
+    color: $clr-link-visited;
+}
+
+nav {
+    font-family: $ff-secondary;
+}
+
+nav a {
+    color: $clr-text;
+    text-decoration: none;
+}
+
+nav ul, nav li {
+    list-style: none;
+}
+
+
+.nav__sublist {
+    font-size: $fs-small;
+}
+
+figcaption {
+    font-family: $ff-secondary;
+    font-size: $fs-caption;
+    margin: 0 2rem;
+    text-align: left;
+}
+
+.section__title {
+    margin-bottom: .25em;
+}
+
+
+.section__subtitle {
+    margin: 0;
+    font-size: $fs-h3;
+}
+
+/* Buttons */
+.btn {
+	display: inline-block;
+	padding: 1em 1em;
+	background: $accent;
+	color: $dark;
+	text-decoration: none;
+	cursor: pointer;
+	font-size: .8rem;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: $fw-bold;
+	transition: transform 200ms ease-in-out;
+	box-shadow: $bs;
+	border-radius: 8px;
+}
+
+.btn:hover {
+	transform: scale(1.1);
+}

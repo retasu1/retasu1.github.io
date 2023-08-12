@@ -1,0 +1,11 @@
+@mixin phone {
+    @media (max-width: #{$screen-small-max}) { @content; }
+}
+
+@mixin medium {
+    @media (min-width: #{$screen-mid-min}) { @content; }
+}
+
+@mixin large {
+    @media (min-width: #{$screen-large-min}) { @content; }
+}

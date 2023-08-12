@@ -1,0 +1,88 @@
+/*colours*/
+
+$white: #fff;
+$dark: #303030;
+$grey: #616A6B;
+$light: #FFFBFB;
+$dropshadow: #EFD6D1;
+$accent: #FF907A;
+$accent-pastel: #FFD4CC;
+$accent-pale: hsla(12, 100%, 95%, 1);	
+
+$blue: #008077;
+$blue-dark: #0F6862;
+
+$clr-text: $dark;
+$clr-link: $blue;
+$clr-link-visited: $blue-dark;
+
+/*typography*/
+@font-face {
+    font-family: charter;
+    font-style: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    src: url('../fonts/charter_regular.woff2') format('woff2');
+    font-display: swap;
+}
+    
+@font-face {
+    font-family: charter;
+    font-style: italic;
+    font-weight: normal;
+    font-stretch: normal;
+    src: url('../fonts/charter_italic.woff2') format('woff2');
+}
+    
+@font-face {
+    font-family: charter;
+    font-style: normal;
+    font-weight: bold;
+    font-stretch: normal;
+    src: url('../fonts/charter_bold.woff2') format('woff2');
+    font-display: swap;
+}
+    
+@font-face {
+    font-family: charter;
+    font-style: italic;
+    font-weight: bold;
+    font-stretch: normal;
+    src: url('../fonts/charter_bold_italic.woff2') format('woff2');
+}
+
+$charter: charter, 'Times New Roman', serif;
+$ibm-plex-sans: 'IBM Plex Sans', sans-serif;
+
+$ff-primary: $charter;
+$ff-secondary: $ibm-plex-sans;
+ 
+$fw-reg: 400;
+$fw-semibold: 600;
+$fw-bold: 700;
+
+$fs-h1: 2.5rem;
+$fs-h2: 2.25rem;
+$fs-h3: 1.25rem;
+$fs-body: 1rem;
+$fs-small: 0.9rem;
+$fs-caption: 0.65rem;
+
+$fs-h1-l: 4.5rem;
+$fs-h2-l: 2.25rem;
+$fs-h3-l: 1.5rem;
+$fs-body-l: 1rem;
+$fs-small-l: 0.75rem;
+$fs-caption-l: 0.7rem;
+
+
+$bs: 0.25em 0.25em 0.75em rgba(0,0,0,.25), 
+0.125em 0.125em 0.25em rgba(0,0,0,0.15);
+
+/* breakpoints */
+$screen-small-max: 850px;
+$screen-mid-min: 600px;
+$screen-large-min: 1025px;
+
+
+ 
