@@ -13,6 +13,15 @@
 		<li class="nav__item">
 			<a href="../portfolio" class="nav__link ">portfolio</a>
 
+			<ul>
+				{% for project in site.categories.projects %}
+				<li>
+					<a href="{{ post.url | relative_url }}">
+						{{project.title}}
+					</a>
+				</li>
+				{% endfor %}
+			</ul>
 		</li>
 
 		<li class="nav__item">
@@ -21,7 +30,15 @@
 
 		<li class="nav__item">
 			<a href="./" class="nav__link ">blog</a>
+			<ul>
+				{% for blogpost in site.categories.blogposts %}
+				<li>
+					<a href="{{ post.url | relative_url }}">
+						{{blogpost.title}}
+					</a>
+				</li>
+				{% endfor %}
+			</ul>
 		</li>		
 	</ul>
-
 </nav>
