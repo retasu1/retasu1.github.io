@@ -10,11 +10,59 @@ html {
 }
 
 body {
-	background-color: $light;
+	background-color: $accent-pastel;
+	margin: 2rem 0;
+
+}
+
+
+@include medium {
+	body {
+		display: grid;
+		align-items: start;
+		grid-template-columns: 1rem 3fr 8fr 1rem;
+		column-gap: 1.25rem;
+		grid-template-areas: 
+			". header main .";
+	}
+
+	header {
+		grid-area: header;
+		position: sticky;
+		top: 2rem;
 	
-	@include large {
-		max-width: 1000px;
-		margin: 1.5rem auto;
+	}
+	
+	main {
+		grid-area: main;
+		display: flex;
+		flex-direction: column;
+		gap: 1.25rem;
+	}
+}
+
+@include large {
+	body {
+		display: grid;
+		align-items: start;
+		grid-template-columns: 1fr 3fr 8fr 1fr ;
+		column-gap: 2.75rem;
+		grid-template-areas: 
+			". header main .";
+	}
+
+	header {
+		grid-area: header;
+		position: sticky;
+		top: 2rem;
+	
+	}
+	
+	main {
+		grid-area: main;
+		display: flex;
+		flex-direction: column;
+		gap: 1.25rem;
 	}
 }
 

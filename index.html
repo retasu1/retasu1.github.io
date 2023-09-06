@@ -1,0 +1,20 @@
+---
+layout: home
+---
+
+<h1 class="year">🐰2023🐰</h1>
+
+{% for post in site.categories.blogposts %}
+
+<article class="post">
+    <h1>
+        {{ post.title }}
+    </h1>
+
+    <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
+    
+    {{ post.content }}
+
+</article>
+
+{% endfor %}
