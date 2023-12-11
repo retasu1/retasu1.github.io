@@ -16,4 +16,4 @@ Some highlights:
 - Did a traineeship, which, much like The Ultimatum (Netflix show), taught me a lot but I wouldn't go through it again.
 - Got deeper into tabletop role playing games.
 
-I want a space that was all mine where I can archive and document things. Ideas, recipes, books I've read, bugs I've seen. I want people to stumble on this website because of a niche google search that happen to match the keywords on a particular post. I want this to be something I can send to close friends
+I want a space that is all mine where I can archive and document things. Ideas, recipes, books I've read, bugs I've seen. I want people to stumble on this website because of a niche google search that happen to match the keywords on a particular post. I want this to be something I can send to close friends.

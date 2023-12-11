@@ -10,62 +10,16 @@ html {
 }
 
 body {
-	background-color: $accent-pastel;
-	margin: 2rem 0;
+	background-color: $clr-background;
 
 }
 
-
-@include medium {
-	body {
-		display: grid;
-		align-items: start;
-		grid-template-columns: 1rem 3fr 8fr 1rem;
-		column-gap: 1.25rem;
-		grid-template-areas: 
-			". header main .";
-	}
-
-	header {
-		grid-area: header;
-		position: sticky;
-		top: 2rem;
-	
-	}
-	
-	main {
-		grid-area: main;
-		display: flex;
-		flex-direction: column;
-		gap: 1.25rem;
-	}
+main {
+	max-width: 900px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
 }
-
-@include large {
-	body {
-		display: grid;
-		align-items: start;
-		grid-template-columns: 1fr 3fr 8fr 1fr ;
-		column-gap: 2.75rem;
-		grid-template-areas: 
-			". header main .";
-	}
-
-	header {
-		grid-area: header;
-		position: sticky;
-		top: 2rem;
-	
-	}
-	
-	main {
-		grid-area: main;
-		display: flex;
-		flex-direction: column;
-		gap: 1.25rem;
-	}
-}
-
 
 img {
 	display: block;
@@ -90,15 +44,9 @@ html {
 	font-size: clamp(16px, 1.3vw, 24px);
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1, h2, h3, h4, h5, h6{
 	color: $clr-text;
-}
-
-h1, h2, h3, h4, h5, h6 {
-	line-height: 1.1;
-    margin: 0;
-    margin-block-start:  0;
-    font-family: $ff-secondary;
+	font-family: $ff-secondary;
 }
 
 h1 { 
@@ -125,8 +73,9 @@ h3 {
 	}
 }
 
-p {
-    font-family: $ff-primary;
+p, li {
+    color: $clr-text;
+	font-family: $ff-primary;
     font-size: $fs-body;
     line-height: 1.6;
 

@@ -1,12 +1,11 @@
-.year {
-    background-color: $light;
-    padding: 1rem;
+.post {
     border-radius: 1rem;
-    align-self: center;
+
+    time {
+        color: $grey;
+    }
 }
 
-.post {
-    background-color: $light;
-    padding: 1rem;
-    border-radius: 1rem;
+.post__title {
+    margin-block-end: 1rem;
 }
