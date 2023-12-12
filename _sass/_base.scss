@@ -9,16 +9,22 @@ html {
 	scroll-behavior: smooth;
 }
 
+
+
 body {
 	background-color: $clr-background;
 
 }
 
 main {
-	max-width: 900px;
-	margin: 0 auto;
+	margin: 0 1rem;
 	display: flex;
 	flex-direction: column;
+
+	@include medium {
+		max-width: 900px;
+		margin: 0 auto;
+	}
 }
 
 img {
@@ -40,9 +46,9 @@ figure img {
 }
 
 /* typography */
-html {
-	font-size: clamp(16px, 1.3vw, 24px);
-}
+:root {
+	font-size: 100%;
+ }
 
 h1, h2, h3, h4, h5, h6{
 	color: $clr-text;
@@ -52,7 +58,7 @@ h1, h2, h3, h4, h5, h6{
 h1 { 
 	font-size: $fs-h1;
 	
-	@include large {
+	@include medium {
 		font-size: $fs-h1-l;
 	}
 }
@@ -60,7 +66,7 @@ h1 {
 h2 { 
 	font-size: $fs-h2;
 
-	@include large {
+	@include medium {
 		font-size: $fs-h2-l;
 	}
 }
@@ -68,7 +74,7 @@ h2 {
 h3 { 
 	font-size: $fs-h3; 
 
-	@include large {
+	@include medium {
 		font-size: $fs-h3-l;
 	}
 }
@@ -79,71 +85,24 @@ p, li {
     font-size: $fs-body;
     line-height: 1.6;
 
-	@include large {
+	@include medium {
 		font-size: $fs-body-l;
 	}
 }
 
-main a {
+a {
     color: $clr-link;
-}
 
-main a:visited {
-    color: $clr-link-visited;
-}
-
-nav {
-    font-family: $ff-secondary;
-}
-
-nav a {
-    color: $clr-text;
-    text-decoration: none;
-}
-
-nav ul, nav li {
-    list-style: none;
+	&:visited {
+		color: $clr-link-visited;
+	}
 }
 
 
-.nav__sublist {
-    font-size: $fs-small;
-}
 
 figcaption {
     font-family: $ff-secondary;
     font-size: $fs-caption;
     margin: 0 2rem;
     text-align: left;
-}
-
-.section__title {
-    margin-bottom: .25em;
-}
-
-
-.section__subtitle {
-    margin: 0;
-    font-size: $fs-h3;
-}
-
-/* Buttons */
-.btn {
-	display: inline-block;
-	padding: 1em 1em;
-	background: $accent;
-	color: $dark;
-	text-decoration: none;
-	cursor: pointer;
-	font-size: .8rem;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	font-weight: $fw-bold;
-	transition: transform 200ms ease-in-out;
-	box-shadow: $bs;
-	border-radius: 8px;
-}
-
-.btn:hover {
-	transform: scale(1.1);
 }

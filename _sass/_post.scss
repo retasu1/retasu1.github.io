@@ -3,9 +3,21 @@
 
     time {
         color: $grey;
+        font-size:$fs-body;
+        font-family: $ff-secondary;
     }
 }
 
 .post__title {
+    
     margin-block-end: 1rem;
+
+    a {
+        color: $dark;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
 }

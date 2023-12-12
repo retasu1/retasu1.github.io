@@ -1,20 +1,22 @@
 /*colours*/
 
 $white: #fff;
-$dark: #303030;
-$grey: #616A6B;
-$light: #FFFBFB;
+$darker: #303030;
+$dark: #4c4038;
+$grey: #6e6662;
+$light: #fffCFA;
 $dropshadow: #EFD6D1;
-$accent: #FF907A;
-$accent-pastel: #FFD4CC;
+$accent: #ffcdbf;
 $accent-pale: hsla(12, 100%, 95%, 1);	
 
-$blue: #008077;
-$blue-dark: #0F6862;
+$blue: #0f7d8a;
+$blue-light: #0c9baa;
+$blue-dark: #084a52;
 
 $clr-background: $light;
-$clr-text: $dark;
+$clr-text: $darker;
 $clr-link: $blue;
+$clr-link-hover: $blue-light;
 $clr-link-visited: $blue-dark;
 
 /*typography*/
@@ -52,7 +54,7 @@ $clr-link-visited: $blue-dark;
     src: url('../fonts/charter_bold_italic.woff2') format('woff2');
 }
 
-$charter: charter, 'Times New Roman', serif;
+$charter: 'charter', 'Times New Roman', serif;
 $ibm-plex-sans: 'IBM Plex Sans', sans-serif;
 
 $ff-primary: $charter;
@@ -65,25 +67,31 @@ $fw-bold: 700;
 $fs-h1: 2.5rem;
 $fs-h2: 2.25rem;
 $fs-h3: 1.25rem;
-$fs-body: 1rem;
+$fs-body: 1.1rem;
 $fs-small: 1rem;
 $fs-caption: 1rem;
+
+$fs-h1-m: 3.0rem;
+$fs-h2-m: 2.25rem;
+$fs-h3-m: 1.5rem;
+$fs-body-m: clamp(1.25rem, calc(1.1vw + 1rem), 1.75rem);
+$fs-small-m: 1rem;
+$fs-caption-m: 1rem;
 
 $fs-h1-l: 3.5rem;
 $fs-h2-l: 2.25rem;
 $fs-h3-l: 1.5rem;
-$fs-body-l: 1.25rem;
+$fs-body-l: clamp(1.25rem, calc(0.65vw + 1rem), 1.75rem);
 $fs-small-l: 1rem;
 $fs-caption-l: 1rem;
-
 
 $bs: 0.25em 0.25em 0.75em rgba(0,0,0,.25), 
 0.125em 0.125em 0.25em rgba(0,0,0,0.15);
 
 /* breakpoints */
 $screen-small-max: 850px;
-$screen-mid-min: 600px;
-$screen-large-min: 1025px;
+$screen-mid-min: 42em;
+$screen-large-min: 60em;
 
 
  
