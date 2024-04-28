@@ -7,7 +7,7 @@ location: "Delft, Netherlands"
 
 I wanted a website that shows birds who appear in both the Netherlands and Taiwan, and whether I've seen them ([link to project](https://birds.liliansung.com/)).[^1] I'm happy I had an idea and was able to execute the idea :D
 
-![Screenshot of project website](../assets/img/2024-bird-project.png)
+![Screenshot of project website](https://www.liliansung.com/assets/img/2024-bird-project.png)
 
 ## The lists
 I used the [Lijst van Nederlandse vogelsoorten](https://www.dutchavifauna.nl/page/1208/lijst_van_nederlandse_vogelsoorten) from the Dutch Birding Association, and the [2023年臺灣鳥類名錄](https://www.bird.org.tw/basicpage/87) from the Taiwan Wild Bird Federation to compile a list of birds that appeared in both countries. The data processing was done in Excel using `=IF(ISERROR(MATCH(A1,$C$1:$C$714,0)),"",A1)` to compare columns. This was done with both the English and scientific names, then fixing discrepancies between the two (e.g. English names differed on the apostrophes used, grey vs gray, apostrophes), deferring to the Dutch list.[^2]
