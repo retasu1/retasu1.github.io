@@ -17,5 +17,8 @@ layout: default
 
 </article>
 
-{% endfor %}
+{% unless forloop.last %}
+<hr>
+{% endunless %}
 
+{% endfor %}

@@ -98,11 +98,15 @@ a {
 	}
 }
 
-
-
 figcaption {
     font-family: $ff-secondary;
     font-size: $fs-caption;
     margin: 0 2rem;
     text-align: left;
+}
+
+hr {
+	height: 2px;
+	width: 100%;
+	color: $darker;
 }
