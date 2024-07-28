@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Thoughts on *The Invention of Nature: Alexander von Humboldt's New World* by Andrea Wulf"
+title:  "Thoughts on <i>The Invention of Nature: Alexander von Humboldt's New World<\/i> by Andrea Wulf"
 date:   2024-07-23 11:18:00 +2000
 location: "Delft, Netherlands"
 ---
