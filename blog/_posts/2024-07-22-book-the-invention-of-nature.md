@@ -4,9 +4,7 @@ title:  "Thoughts on <i>The Invention of Nature: Alexander von Humboldt's New Wo
 date:   2024-07-23 11:18:00 +2000
 location: "Delft, Netherlands"
 ---
-I keep an eye on the [Forest and Nature Conservation Policy Group](https://www.wur.nl/en/research-results/chair-groups/environmental-sciences/forest-and-nature-conservation-policy-group.htm)  at Wageningen university. The current me thinks, if I ever do a PhD, it would be at somewhere like this. This group runs a [book club](https://www.wur.nl/en/research-results/chair-groups/environmental-sciences/forest-and-nature-conservation-policy-group/education/book-club.htm), and their next book is [*The Invention of Nature: Alexander von Humboldt's New World* by Andrea Wulf](https://en.wikipedia.org/wiki/The_Invention_of_Nature).  I doubt I'll attend the book club in person, but I did read the book. [^1]
-
-Some disconnected thoughts:
+I keep an eye on the [Forest and Nature Conservation Policy Group](https://www.wur.nl/en/research-results/chair-groups/environmental-sciences/forest-and-nature-conservation-policy-group.htm)  at Wageningen university. The current me thinks, if I ever do a PhD, it would be at somewhere like this. This group runs a [book club](https://www.wur.nl/en/research-results/chair-groups/environmental-sciences/forest-and-nature-conservation-policy-group/education/book-club.htm), and their next book is [*The Invention of Nature: Alexander von Humboldt's New World* by Andrea Wulf](https://en.wikipedia.org/wiki/The_Invention_of_Nature).  I doubt I'll attend the book club in person, but I did read the book.[^1] Some disconnected thoughts:
 
 ## Dabblers and polymaths
 Science wasn't always so specialised. I found this heartening, as someone who feels like they didn't specialise enough.
