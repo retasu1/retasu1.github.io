@@ -8,53 +8,32 @@ layout: default
 {% assign firstPostDate = site.categories.blog.first.date | date: "%Y" %}
 
 {% if firstPostDate == thisYear %}
-    <!--posts from this year-->
-    <h2 class="homeYear">{{ thisYear }}</h2>
-    {% for post in site.categories.blog %}
-        {% capture year %}{{ post.date | date: "%Y" }}{% endcapture %}
-        {% if year == thisYear %}
-            <article class="post">
-                <h1 class="post__title">
-                    <a href="{{ post.url | relative_url }}">
-                        {{ post.title }}
-                    </a>
-                </h1>
-
-                <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
-                
-                {{ post.content }}
-
-            </article>
-
-            {% unless forloop.last %}
-            <hr>
-            {% endunless %}
-        {% endif %}
-    {% endfor %}
-
+    {% assign homeYear = thisYear %}
 {% else %}
-    <!--posts from last year-->
-    <h2 class="homeYear">{{ lastYear }}</h2>
-
-    {% for post in site.categories.blog %}
-        {% capture year %}{{ post.date | date: "%Y" }}{% endcapture %}
-        {% if year == lastYear %}
-            <article class="post">
-                <h1 class="post__title">
-                    <a href="{{ post.url | relative_url }}">
-                        {{ post.title }}
-                    </a>
-                </h1>
-        
-                <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
-                
-                {{ post.content }}
-        
-            </article>
-        
-            {% unless forloop.last %}
-            <hr>
-            {% endunless %}
-        {% endif %}
-    {% endfor %}
+    {% assign homeYear = lastYear %}
 {% endif %}
+
+<h2 class="homeYear">{{ homeYear }}</h2>
+
+{% for post in site.categories.blog %}
+    {% capture year %}{{ post.date | date: "%Y" }}{% endcapture %}
+    {% if year == homeYear %}
+        <article class="post">
+            <h1 class="post__title">
+                <a href="{{ post.url | relative_url }}">
+                    {{ post.title }}
+                </a>
+            </h1>
+
+            <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
+            
+            {{ post.content }}
+
+        </article>
+
+        {% assign nextDate = site.categories.blog[forloop.index].date | date: "%Y" %}
+        {% unless nextDate != homeYear %}
+        <hr>
+        {% endunless %}
+    {% endif %}
+{% endfor %}
