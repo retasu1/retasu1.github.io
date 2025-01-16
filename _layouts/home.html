@@ -2,23 +2,77 @@
 layout: default
 ---
 
+
+{% assign thisYear = "now" | date: "%Y" %}
+{% capture lastYear %}{{ thisYear | minus: 1 }}{% endcapture %}
+
+<h2 style="color: red;">last year: {{ lastYear }}</h2>
+
+<h1> this year: {{ thisYear }}</h1>
+
+{% assign firstPostDate = site.categories.blog.first.date | date: "%Y" %}
+
+{% if firstPostDate == thisYear %}
+<h1>posts from {{thisYear}}</h1>
+{% for post in site.categories.blog %}
+{% capture year %}{{ post.date | date: "%Y" }}{% endcapture %}
+{% if year == thisYear %}
+    <li>
+        {{ post.date | date_to_long_string }}|| {{ post.title }}
+    </li>
+{% endif %}
+{% endfor %}
+
+
+{% else %}
+    <h1>posts from {{lastYear}}</h1>
+
+    {% for post in site.categories.blog %}
+        {% capture year %}{{ post.date | date: "%Y" }}{% endcapture %}
+        {% if year == lastYear %}
+            <li>
+                {{ post.date | date_to_long_string }}|| {{ post.title }}
+            </li>
+        {% endif %}
+    {% endfor %}
+
+{% endif %}
+
+
+
+<!--
+<ul>
+{% for post in site.categories.blog %}
+    <li>
+        {{ post.date | date_to_long_string }}|| {{ post.title }}
+    </li>
+{% endfor %}
+
+</ul>
+-->
+
+
+
+<!--
 {% for post in site.categories.blog %}
 
-<article class="post">
-    <h1 class="post__title">
-        <a href="{{ post.url | relative_url }}">
-            {{ post.title }}
-        </a>
-    </h1>
+    <article class="post">
+        <h1 class="post__title">
+            <a href="{{ post.url | relative_url }}">
+                {{ post.title }}
+            </a>
+        </h1>
 
-    <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
-    
-    {{ post.content }}
+        <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
+        
+        {{ post.content }}
 
-</article>
+    </article>
 
-{% unless forloop.last %}
-<hr>
-{% endunless %}
+    {% unless forloop.last %}
+    <hr>
+    {% endunless %}
 
 {% endfor %}
+
+-->
