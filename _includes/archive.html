@@ -4,9 +4,9 @@
 
         {% for year in site.years reversed %}
             {% if year.title == include.year %}
-            <li><a href="/blog/{{year.title}}/" class="archive-link archive-current">{{year.title}} (you're here)</a></li>
+            <li><a href="/blog/{{year.title}}" class="archive-link archive-current">{{year.title}} (you're here)</a></li>
             {% else %}
-            <li><a href="/blog/{{year.title}}/" class="archive-link">{{year.title}}</a></li>
+            <li><a href="/blog/{{year.title}}" class="archive-link">{{year.title}}</a></li>
             {% endif %}
         {% endfor %}
 
