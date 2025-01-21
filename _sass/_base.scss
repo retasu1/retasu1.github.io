@@ -9,21 +9,17 @@ html {
 	scroll-behavior: smooth;
 }
 
-
-
 body {
 	background-color: $clr-background;
 	margin: 0;
+	width: 100%;
 }
 
 main {
 	margin: 0 1rem;
-	display: flex;
-	flex-direction: column;
 
-	@include medium {
-		max-width: 900px;
-		max-width: clamp(600px, calc(8rem + 50vw), 850px);
+	@include large {
+		max-width: $content-width;
 		margin: 0 auto;
 	}
 }
@@ -47,7 +43,7 @@ figure img {
 }
 
 /* typography */
-:root {
+body {
 	font-size: 100%;
  }
 
@@ -107,6 +103,8 @@ figcaption {
     text-align: left;
 }
 
+/* other */
+
 hr {
 	height: 2px;
 	width: 100%;
@@ -117,4 +115,43 @@ time {
 	color: $grey;
 	font-size:$fs-body;
 	font-family: $ff-secondary;
+}
+
+/* archive */
+.archive {
+	p {
+		display: inline-block;
+	}
+}
+.archive-list {
+	display: inline-block;
+	padding-inline-start: 1em;
+
+	li {
+		list-style: none;
+		display: inline-block;
+	}
+
+	li:not(:last-child)::after {
+		content: "/";
+		display: inline-block;
+		width: 0.75em;
+		margin-left: 0.75em;
+	}
+}
+
+.archive-link {
+	color: $dark;
+}
+
+.archive-link:visited {
+	color: $dark;
+}
+
+.archive-link:hover{
+	background-color: $accent;
+}
+
+.archive-current {
+	text-decoration: none;
 }

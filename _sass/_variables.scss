@@ -93,5 +93,8 @@ $screen-small-max: 850px;
 $screen-mid-min: 42em;
 $screen-large-min: 60em;
 
+/* content */
+$content-width: clamp(600px, calc(8rem + 50vw), 850px)
+
 
  

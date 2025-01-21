@@ -1,0 +1,19 @@
+.homeYear {
+    color: $dark;
+    margin-block-start: 0.83em;
+}
+
+
+
+.archive-left {
+    @include large {
+        margin-left: 1rem;
+        grid-area: archive-left;
+	}
+}
+
+.archive-middle {
+    @include large {
+        grid-area: archive-middle;
+	} 
+}
