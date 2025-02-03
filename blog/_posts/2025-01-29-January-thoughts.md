@@ -19,9 +19,9 @@ Started reading stuff about the IndieWeb and [Publish (on your) Own Site, Syndic
 
 I've also been doing these monthly posts of Instagram since 2019 that I think I'll migrate here too? Still figuring out the details and formatting.
 
-![A graph titled "I'm on my way :snail:". X-axis is "how fast I'm going", Y-axis is "How fast i want to go". Snail emojis from various vendors are placed on the graph depending on how fast they look like they're going vs how fast the snail wants to get there.](/assets/img/snailspeed.png)
+![A graph titled "I'm on my way :snail:". X-axis is "how fast I'm going", Y-axis is "How fast i want to go". Snail emojis from various vendors are placed on the graph depending on how fast they look like they're going vs how fast the snail wants to get there.](/assets/img/snailspeed.jpg)
 
 ## H is for Hawk
-Lastly, I've been reading *H is for Hawk* by Helen Macdonald. It is intense and I cannot read many chapters in one sitting. I'm about a third in, and I'm hoping it's a hopeful book. I'm in a period of my life where I feel unmoored, and I'm hoping 2025 is a hopeful year. 
+Lastly, I've been reading *H is for Hawk* by Helen Macdonald. It is intense and I cannot read many chapters in one sitting. I'm about a third in, and I'm hoping it's a hopeful book. I'm in a period of my life where I feel unmoored, and I'm hoping 2025 is a hopeful year. I'm more able to articulate what my media taste is. I like stories that are hopeful, where the world is mostly filled with kindness. Where characters are figuring out how they feel about the world and who they are and where they belong.
 
 This book is part of the [Alveus Book Club](https://www.alveussanctuary.org/book-club). Since December I have been *consuming* content from [Alveus Sanctuary](https://www.youtube.com/AlveusSanctuary) and forming some sort of parasocial relationship with their founder Maya 😅 A third inspirational, a third self-doubt, a third cute animals.
