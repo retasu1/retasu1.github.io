@@ -2,8 +2,24 @@
     border-radius: 1rem;
 }
 
+@include large {
+    .post {
+        display: grid;
+        grid-template-columns: 1fr 1fr $content-width 1fr 1fr;
+    }
+
+    .post > * {
+        grid-column: 3;
+    }
+
+    .post > p {
+        margin: 0.45em 0;
+    }    
+}
+
+
 .post__title {
-    
+    margin-top: 0.5em;
     margin-block-end: 1rem;
 
     a {
@@ -15,3 +31,19 @@
         text-decoration: underline;
     }
 }
+
+@include large {
+    .photoCarousel {
+        margin: 0.75em;
+        grid-column: 2 / 5;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .photoCarousel-photos {
+        display: flex;
+        overflow-x: scroll;
+    }
+
+}
+

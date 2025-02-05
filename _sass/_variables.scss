@@ -1,22 +1,25 @@
 /*colours*/
 
 $white: #fff;
-$darker: #303030;
-$dark: #4c4038;
-$grey: #6e6662;
-$light: #fffCFA;
-$dropshadow: #EFD6D1;
-$accent: #ffcdbf;
-$accent-pale: hsla(12, 100%, 95%, 1);	
+$darker: oklch(22.5% 0.01 35);
+$dark: oklch(45% 0.05 35);
+$grey: oklch(51.64% 0.0119 35);
+$light: oklch(99.28% 0.005 35);
 
-$blue: #0f7d8a;
-$blue-light: #0c9baa;
-$blue-dark: #084a52;
+$blue: oklch(55% 0.12 245);
+$blue-light: oklch(60% 0.12 245);
+$blue-dark: oklch(45% 0.12 245);
+
+$green: oklch(55% 0.20 125);
+
+$clay: oklch(60% 0.16 35);
+$clay-light: oklch(85% 0.09 35);
+
+$accent: $clay-light;
 
 $clr-background: $light;
 $clr-text: $darker;
 $clr-link: $blue;
-$clr-link-hover: $blue-light;
 $clr-link-visited: $blue-dark;
 
 /*typography*/
