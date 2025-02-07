@@ -1,14 +1,19 @@
 ---
 layout: default
 ---
-<article class="middle">
-    <h1 class="post__title">
-        <a href="{{ page.url }}">
-            {{ page.title }}
-        </a>
-    </h1>
+{% include nav.html %}
 
-    <time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date_to_long_string }}</time>
+<main>
+    <article class="post">
+        <h1 class="post__title">
+            <a href="{{ page.url }}">
+                {{ page.title }}
+            </a>
+        </h1>
 
-    {{ content }}
-</article>
+        <time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date_to_long_string }}</time>
+
+        {{ content }}
+    </article>    
+</main>
+

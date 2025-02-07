@@ -11,11 +11,6 @@ html {
 
 body {
 	background-color: $clr-background;
-	margin: 0;
-	width: 100%;
-}
-
-main {
 	margin: 1rem;
 }
 
@@ -70,10 +65,6 @@ p, li {
 	}
 }
 
-@include medium {
-	
-}
-
 a {
     color: $clr-link;
 
@@ -81,6 +72,11 @@ a {
 		color: $clr-link-visited;
 	}
 
+}
+
+nav * {
+	color: $dark;
+	font-family: $ff-secondary;
 }
 
 figcaption {
@@ -112,33 +108,13 @@ time {
 	font-family: $ff-secondary;
 }
 
-.nav-link {
-	color: $dark;
-	font-family: $ff-secondary;
-	margin-right: 1em;
-	font-size: $fs-body;
-
-	@include medium {
-		font-size: $fs-body-l;
-	}
-
-	&:hover{
-		background-color: $accent;
-	}
-}
-
-/* archive */
-.archive, nav {
+/* nav */
+nav {
 	margin: 1em 0;
 
 	@include medium {
 	max-width: $content-width;
 	margin: 1em auto;		
-	}
-
-	.archive-text {
-		color: $dark;
-		font-family: $ff-secondary;
 	}
 
 	p {
@@ -148,7 +124,7 @@ time {
 	}
 }
 
-.archive-list {
+.nav-links {
 	padding-inline-start: 0;
 	margin: 0;
 	display: inline-block;
@@ -167,10 +143,33 @@ time {
 	}
 }
 
-.archive-link:hover{
-	background-color: $accent;
+.nav-current {
+	text-decoration: none;
 }
 
-.archive-current {
-	text-decoration: none;
+.nav-link {
+	&:hover {
+		background-color: $accent;
+	}
+
+	&:visited {
+		color: $dark;
+	}
+}
+
+/* main grid; should rename classes*/
+
+@include medium {
+    .post {
+        display: grid;
+        grid-template-columns: 1fr 1fr $content-width 1fr 1fr;
+    }
+
+    .post > * {
+        grid-column: 3;
+    }
+
+    .post > p {
+        margin: 0.45em 0;
+    }    
 }

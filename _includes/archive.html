@@ -1,13 +1,13 @@
 <nav class="archive">
-    <p class="archive-text">Go to:</p>
+    <p class="archive-text nav-text">Go to:</p>
     <ul class="archive-list">
         {% for year in site.years reversed %}
             {% if year.title == include.year %}
-            <li><a href="/blog/{{year.title}}" class="archive-link archive-current archive-text">{{year.title}} (you're here)</a></li>
+            <li><a href="/blog/{{year.title}}" class="archive-link archive-current archive-text nav-link">{{year.title}} (you're here)</a></li>
             {% else %}
-            <li><a href="/blog/{{year.title}}" class="archive-link archive-text">{{year.title}}</a></li>
+            <li><a href="/blog/{{year.title}}" class="archive-link archive-text nav-link">{{year.title}}</a></li>
             {% endif %}
         {% endfor %}
-
+        <li><a class="nav-link" href="/photos">photos</a></li>
     </ul>
 </nav>

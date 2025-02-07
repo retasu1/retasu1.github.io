@@ -1,0 +1,14 @@
+<nav role="navigation">
+    <p class="nav-text">Go to:</p>
+    <ul class="nav-links">
+        {% for year in site.years reversed %}
+            {% if year.title == include.year %}
+                <li><a href="/blog/{{year.title}}" class="nav-current nav-link">{{year.title}} (you're here)</a></li>
+            {% else %}
+                <li><a href="/blog/{{year.title}}" class="nav-link">{{year.title}}</a></li>
+            {% endif %}
+        {% endfor %}
+        <li><a href="{{ site.url}}/photos" class="nav-link">photos</a></li>
+             
+    </ul>
+</nav> 
