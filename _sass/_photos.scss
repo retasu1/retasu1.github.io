@@ -1,0 +1,43 @@
+.monthlyPhotos {
+    
+}
+
+@include large {
+    .monthly-photos{
+        max-width: $content-width;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 3fr 2fr;
+        gap: 1em;
+    }
+    
+    .carousel {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .monthly-photos__caption{
+        font-size: $fs-body;
+        align-self: start;
+        position: sticky;
+        top: 0.75em;
+    }
+
+}
+
+.monthly-photos{
+
+}
+
+.carousel {
+
+}
+
+.carousel__photo {
+
+}
+
+.monthly-photos__caption{
+    
+}

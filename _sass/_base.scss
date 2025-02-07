@@ -16,7 +16,7 @@ body {
 }
 
 main {
-	margin: 0 1rem;
+	margin: 1rem;
 
 	/* 
 	@include large {
@@ -30,19 +30,6 @@ main {
 img {
 	display: block;
 	max-width: 100%;
-}
-
-figure, figure img {
-	margin: 0 auto;
-}
-
-figure {
-	margin-top: 2rem;
-	margin-bottom: 2rem;
-}
-
-figure img {
-	margin-bottom: 1rem;
 }
 
 /* typography */
@@ -103,8 +90,6 @@ a {
 figcaption {
     font-family: $ff-secondary;
     font-size: $fs-caption;
-    margin: 0 2rem;
-    text-align: left;
 }
 
 /* other */
@@ -131,8 +116,23 @@ time {
 	font-family: $ff-secondary;
 }
 
+.nav-link {
+	color: $dark;
+	font-family: $ff-secondary;
+	margin-right: 1em;
+	font-size: $fs-body;
+
+	@include medium {
+		font-size: $fs-body-l;
+	}
+
+	&:hover{
+		background-color: $accent;
+	}
+}
+
 /* archive */
-.archive {
+.archive, nav {
 	margin: 1em 0;
 
 	@include large {
@@ -151,6 +151,7 @@ time {
 		margin: 0;
 	}
 }
+
 .archive-list {
 	padding-inline-start: 0;
 	margin: 0;

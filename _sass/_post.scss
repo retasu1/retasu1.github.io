@@ -32,18 +32,3 @@
     }
 }
 
-@include large {
-    .photoCarousel {
-        margin: 0.75em;
-        grid-column: 2 / 5;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-
-    .photoCarousel-photos {
-        display: flex;
-        overflow-x: scroll;
-    }
-
-}
-
