@@ -7,9 +7,11 @@ location: "Delft, Netherlands"
 
 <figure class="monthly-photos">
     <div class="carousel">
-        <img class="carousel__photo" src="/assets/img/monthlyPhotos/2025Jan/moss.png">
-        <img class="carousel__photo" src="/assets/img/monthlyPhotos/2025Jan/boats.png">
-        <img class="carousel__photo" src="/assets/img/monthlyPhotos/2025Jan/cookie.png">
+        <div class="carousel__wrapper">
+                <img class="carousel__photo" src="/assets/img/monthlyPhotos/2025Jan/moss.png">
+                <img class="carousel__photo" src="/assets/img/monthlyPhotos/2025Jan/boats.png">
+                <img class="carousel__photo" src="/assets/img/monthlyPhotos/2025Jan/cookie.png">
+        </div>
     </div>
     <figcaption class="monthly-photos__caption">
         Spring is happening. I know this because the alder catkins have bloomed and fallen. The geese are back and honking. The wild garlic are poking their little heads out of the ground.<br>

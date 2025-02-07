@@ -17,14 +17,6 @@ body {
 
 main {
 	margin: 1rem;
-
-	/* 
-	@include large {
-		max-width: $content-width;
-		margin: 0 auto;
-	}	
-	*/
-
 }
 
 img {
@@ -78,6 +70,10 @@ p, li {
 	}
 }
 
+@include medium {
+	
+}
+
 a {
     color: $clr-link;
 
@@ -105,7 +101,7 @@ hr {
 	width: 100%;
 	color: $darker;
 
-	@include large {
+	@include medium {
 		max-width: $content-width;
 	}
 }
@@ -135,7 +131,7 @@ time {
 .archive, nav {
 	margin: 1em 0;
 
-	@include large {
+	@include medium {
 	max-width: $content-width;
 	margin: 1em auto;		
 	}

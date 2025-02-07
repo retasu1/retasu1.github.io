@@ -2,7 +2,7 @@
     border-radius: 1rem;
 }
 
-@include large {
+@include medium {
     .post {
         display: grid;
         grid-template-columns: 1fr 1fr $content-width 1fr 1fr;
