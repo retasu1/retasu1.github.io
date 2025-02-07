@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+{% include nav.html %}
+<main>
+    <div class="photos-page post">
+        <p>At the end of each month I select a few photos. I've been doing this on Instagram since 2019. Might archive them here one day too.</p>
+
+        <div class="photo-grid">
+
+            {% for post in site.categories.photos %}
+                <a href="{{ post.url | relative_url }}">
+                    <img src="{{ post.img }}">
+                </a>
+            {% endfor %}
+
+        </div>
+    </div>    
+</main>
+
+

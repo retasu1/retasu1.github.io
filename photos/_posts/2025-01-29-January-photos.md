@@ -3,6 +3,7 @@ layout: monthlyPhoto
 title: "January 2025"
 date: 2025-01-29 12:00:00 +2000
 location: "Delft, Netherlands"
+img: /assets/img/monthlyPhotos/2025Jan/moss.png
 ---
 
 <figure class="monthly-photos">
