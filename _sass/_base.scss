@@ -66,12 +66,8 @@ p, li {
 }
 
 a {
-    color: $clr-link;
-
-	&:visited {
-		color: $clr-link-visited;
-	}
-
+    &:link {color: $clr-link;}
+	&:visited {color: $clr-link-visited;}
 }
 
 nav * {
