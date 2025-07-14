@@ -19,14 +19,14 @@ I'm a bit of a tab hoarder. Ever so often I go and close a bunch of them. Here i
 - [Reimagined futures](https://www.reimaginedfutures.org/) ReImagined Futures is a systems change consultancy dedicated to enabling systemic impact and bioregional transformation through deep collaboration. Barcelona |  London |  Nicosia  |  Prague |  Sofia
 - [Go Green Routes](https://gogreenroutes.eu/) Its multidisciplinary consortium of 40 organisations is pairing participatory approaches and citizen science with Big Data analyses and digital innovation to co-create "Urban Well-being Labs" in six “Cultivating Cities”: Burgas (Bulgaria), Lahti (Finland), Limerick (Ireland), Tallinn (Estonia), Umeå (Sweden) and Versailles (France).
 
-## To Read
+### To Read
 - [The life of  Leaf](https://press.uchicago.edu/ucp/books/book/chicago/L/bo12300588.html) Book by [Steven Vogel](https://en.wikipedia.org/wiki/Steven_Vogel). This Steven worked on biomechanics. I found him through googling the function of lobed leaves -> heat dissipation and perhaps to allow light to pass through to lower branches. 
 - [Against Nature: The Concept of Nature in Critical Theory](https://books.google.nl/books/about/Against_Nature.html?id=exuJNKJ4GaYC&redir_esc=y) Book by a different Steven Vogel. This Steven worked on environmental philosophy.
 - [Thinking like a Mall; Environmental Philosophy after the End of Nature.](https://mitpress.mit.edu/9780262529716/thinking-like-a-mall/) Another book by the second Steven. “what environment should we inhabit, and what practices should we engage in to help build it?”
 - [Stadsbomen](https://edepot.wur.nl/635411) a piece out of the vakblad Bomen from Wageningen University
 - [Scientias](https://scientias.nl/) Added to my rss feed
 
-## To Watch
+### To Watch
 - [Fidel Castro](https://www.youtube.com/results?search_query=fidel+castro) Youtube search results. I don't know much about him! Didn't watch any of the videos but did read his Encyclopedia Britannica page.
 - [Social-Ecological Systems](https://www.youtube.com/playlist?list=PL3cQMb4HSpp-DgX7ZoklckuiH3F5GyavP) a playlist of videos
 - [【循環經濟】玻璃面板回收的華麗變身│太陽能板、電腦、電視面板報廢怎麼處理？](https://www.youtube.com/watch?v=QA8rLyOen_s&ab_channel=%E5%85%AC%E5%85%B1%E9%9B%BB%E8%A6%96-%E6%88%91%E5%80%91%E7%9A%84%E5%B3%B6)
