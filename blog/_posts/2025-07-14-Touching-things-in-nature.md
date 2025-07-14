@@ -15,12 +15,12 @@ I also finally figured out how pine cones work and found (and ate) a couple pine
 I'm a bit of a tab hoarder. Ever so often I go and close a bunch of them. Here is a collection of closed tabs from today.
 
 ### Organisations and Projects
-- https://blog.more4nature.eu/
-- [Reimagined futures](https://www.reimaginedfutures.org/) ReImagined Futures is a systems change consultancy dedicated to enabling systemic impact and bioregional transformation through deep collaboration. Barcelona |  London |  Nicosia  |  Prague |  Sofia
+- [https://blog.more4nature.eu/](https://blog.more4nature.eu/)
+- [Reimagined futures](https://www.reimaginedfutures.org/) ReImagined Futures is a systems change consultancy dedicated to enabling systemic impact and bioregional transformation through deep collaboration.
 - [Go Green Routes](https://gogreenroutes.eu/) Its multidisciplinary consortium of 40 organisations is pairing participatory approaches and citizen science with Big Data analyses and digital innovation to co-create "Urban Well-being Labs" in six “Cultivating Cities”: Burgas (Bulgaria), Lahti (Finland), Limerick (Ireland), Tallinn (Estonia), Umeå (Sweden) and Versailles (France).
 
 ### To Read
-- [The life of  Leaf](https://press.uchicago.edu/ucp/books/book/chicago/L/bo12300588.html) Book by [Steven Vogel](https://en.wikipedia.org/wiki/Steven_Vogel). This Steven worked on biomechanics. I found him through googling the function of lobed leaves -> heat dissipation and perhaps to allow light to pass through to lower branches. 
+- [The life of  Leaf](https://press.uchicago.edu/ucp/books/book/chicago/L/bo12300588.html) Book by [Steven Vogel](https://en.wikipedia.org/wiki/Steven_Vogel). This Steven worked on biomechanics. I found him through googling the function of lobed leaves > heat dissipation and perhaps to allow light to pass through to lower branches. 
 - [Against Nature: The Concept of Nature in Critical Theory](https://books.google.nl/books/about/Against_Nature.html?id=exuJNKJ4GaYC&redir_esc=y) Book by a different Steven Vogel. This Steven worked on environmental philosophy.
 - [Thinking like a Mall; Environmental Philosophy after the End of Nature.](https://mitpress.mit.edu/9780262529716/thinking-like-a-mall/) Another book by the second Steven. “what environment should we inhabit, and what practices should we engage in to help build it?”
 - [Stadsbomen](https://edepot.wur.nl/635411) a piece out of the vakblad Bomen from Wageningen University
