@@ -77,14 +77,14 @@ $fs-caption: 1rem;
 $fs-h1-m: 3.0rem;
 $fs-h2-m: 2.25rem;
 $fs-h3-m: 1.5rem;
-$fs-body-m: clamp(1.25rem, calc(1.1vw + 1rem), 1.75rem);
+$fs-body-m: clamp(1.15rem, calc(1.1vw + 1rem), 1.50rem);
 $fs-small-m: 1rem;
 $fs-caption-m: 1rem;
 
 $fs-h1-l: 3.5rem;
 $fs-h2-l: 2.25rem;
 $fs-h3-l: 1.5rem;
-$fs-body-l: clamp(1.25rem, calc(0.5vw + 1rem), 1.75rem);
+$fs-body-l: clamp(1.15rem, calc(0.5vw + 1rem), 1.40rem);
 $fs-small-l: 1rem;
 $fs-caption-l: 1rem;
 
@@ -97,7 +97,7 @@ $screen-mid-min: 42em;
 $screen-large-min: 60em;
 
 /* content */
-$content-width: clamp(600px, calc(8rem + 50vw), 850px)
+$content-width: clamp(600px, calc(8rem + 50vw), 800px)
 
 
  
